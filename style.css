@@ -13,18 +13,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px 100px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 8px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.right {
-
-}
