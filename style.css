@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right {
+
+}
