@@ -87,6 +87,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: white; /* delete */
+    width: 100%;
 }
 
 h2 {
