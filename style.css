@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #1f2937;
     margin: 0;
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -82,13 +82,12 @@ button {
     padding: 9px 35px;
     margin-top: 10px;
     font-size: 18px;
-
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    background-color: white; /* delete */
+    background-color: white;
     width: 100%;
 }
 
@@ -163,4 +162,40 @@ h2 {
 
 .right_side button {
     border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    width: 100vw;
+    text-align: center;
+    padding-top: 35px;
+    padding: 35px;
+}
+
+.fourth {
+    background: white;
+    width: 90vw;
+    max-width: 1000px;
+    padding: 100px 20vw;
+}
+
+.window {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.left_side {
+    margin-left: 8vw;
+}
+.right_side {
+    text-align: end;
+    min-width: 200px;
+    margin-right: 8vw;
+}
+
+.right_side button {
+    margin-top: 0px;
 }
